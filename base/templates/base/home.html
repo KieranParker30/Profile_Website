@@ -1,0 +1,123 @@
+{% load static %}
+
+<!--
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kieran Parker</title>
+	<link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<br>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/profile.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Kieran</h4>
+					<p>I am a data analyst!</p>
+					<div padding-top:50px; > <a href="https://www.linkedin.com/in/kieran-parker/"> <img id="linkedin-logo" src="{% static 'images/linkedin-logo.jpg' %}" width="50" height="50"> </a> <a href="https://dribbble.com/KieranP"> <img id="dribble-logo" src="{% static 'images/dribble-logo.jpg' %}" width="60" height="60" /> </a> <a href="https://ui.adsabs.harvard.edu/abs/2019AAS...23324218P/abstract"> <img id="astro-logo" src="{% static 'images/Astro.jpg' %}" width="75" height="60" /> </a> </div>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="card card-body h-100">
+					<h4>A Little About Me...</h4>
+					<hr>
+					<p>I have recently completed a Powerwall Internship at Tesla. Prior to this I studied abroad at the Center for Astrophysics | Harvard & Smithsonian carrying out research for my Master’s degree in Physics from University of Southampton. Whilst providing analytical skills these experiences have also given me the chance to collaborate in small teams, communicate my ideas and to learn that failure can quite often be the key to success.</p>
+					<p>Now I am looking to use the skills I have gained to put into action on real life products to make impactful change. I want to use data to provide logical and clear paths forward for businesses to take action and grow sales of products that allow others to chase their dreams. </p>
+					<p>To assist in this, I am  developing skills in SQL and Django (including HTML and CSS), alongside previous skills in Python and Excel VBA. </p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card card-body h-100">
+					<h5>Center for Astrophysics |<br> Harvard & Smithsonian</h5>
+					<h6 style="color:gray">Research Fellow</h6>
+					<hr>
+					<ul>
+						<li> Carried out research for my thesis, which can be read<a href="{% static 'images/Thesis_Final.pdf' %}"> here</a>.</li>
+						<li> I strengthened many skills including quickly learning new software, working with large data sets and rapidly adapting to solve new problems.</li>
+					
+						<li>Required the use of CIAO analytic software, Python programming, Linux (bash) and LaTeX. </li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card card-body h-100">
+					<h5>Tesla</h5>
+					<h6 style="color:gray">Powerwall Intern</h6>
+					<hr>
+					<ul>
+						<li>Assisted the UK Powerwall team on various day to day tasks and long term projects.</li>
+						<li>Worked closely within this team to create data-driven solutions and dashboards and collaborated with teams in the UK, Spain and the 						Netherlands.</li>
+						<li>Learnt Visual Basic for Applications for use within Excel Macros and used Tesla's CRM. 
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card card-body h-100">
+					<h5>Sysco</h5>
+					<h6 style="color:gray">Student Software Engineer</h6>
+					<hr>
+					<ul>
+						<li>Part of a team tasked with designing software for pre-visualisation of museum spaces.</li>
+						<li>Created 3D CAD models of buildings and museum elements using Google Sketchup for use within the Unity game engine.</li>
+						<li>Worked with the English and Polish development teams in using C# to implement these CAD models into the virtual space. </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card card-body h-100" id="profile-wrapper">
+					<h5>Sport</h5>
+					<hr>
+					<p>Southampton University Table Tennis Club</p>
+					<p style="color:gray"><small>Former Treasurer and Recreational Officer</small></p>
+					<a><img id="tabletennis-logo" src="{% static 'images/TT_Logo_Original.png' %}" width="120" height="120"></a>
+					<p>Southampton University Ice Hockey Club</p>
+					<p style="color:gray"><small>Former Team C Player</small></p>
+					<a><img id="icehockey-logo" src="{% static 'images/ice hockey.jpg' %}" width="120" height="100"></a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card card-body h-100" id="profile-wrapper">
+					<h5>Art</h5>
+					<hr>
+					<p>Photography</p>
+					<a href="https://www.flickr.com/photos/72868693@N02/"><img id="flickr-logo" src="{% static 'images/Flickr.svg' %}" width="120" height="120" /></a>
+					<div style="height:40px;font-size:1px;">&nbsp;</div>
+					<p>Design</p>
+					<a href="https://dribbble.com/KieranP"><img id="dribble-logo" src="{% static 'images/dribble-logo.jpg' %}" width="120" height="120" /></a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card card-body h-100">
+					<h5>Other Passions</h5>
+					<hr>
+					<ul>
+						<li>The Environment</li>
+						<li>Cooking</li>
+						<li>Space Exploration</li>
+						<li>Healthcare Technology</li>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+
+
+
+</body>
+</html>
